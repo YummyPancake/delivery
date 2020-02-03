@@ -25,7 +25,11 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'Hello everyone, I am Yueyang Pan, a master student in ECE. '
+    return """
+    <h1>Project 1</h1>
+	<p>Yueyang Pan, a master's student in Electrical and Computer Engineering department.</p>
+  <a href="https://www.linkedin.com/in/yueyang-pan-597b04179/">My LinkedIn</a>
+  """
 
 @app.route('/name/<value>')
 def name(value):
