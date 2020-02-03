@@ -27,9 +27,8 @@ def hello():
     """Return a friendly HTTP greeting."""
     return """
     <h1>Project 1</h1>
-	<p>Yueyang Pan, a master's student in Electrical and Computer Engineering department.</p>
-  <a href="https://www.linkedin.com/in/yueyang-pan-597b04179/">My LinkedIn</a>
-  <img src=movie.gif width=32 height=32 border=0>
+	<p>Yueyang Pan, a master's student in Electrical and Computer Engineering department. Here is my LinkedIn page.</p>
+    <a href="https://www.linkedin.com/in/yueyang-pan-597b04179/">My LinkedIn</a>
   """
 
 @app.route('/name/<value>')
